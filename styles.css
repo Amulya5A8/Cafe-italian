@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+      font-family: Arial, sans-serif;
+        background: #fff8f0;
+          color: #333;
+          }
+
+          .container {
+            max-width: 480px;
+              margin: auto;
+                padding: 1rem;
+                }
+
+                header {
+                  display: flex;
+                    justify-content: space-between;
+                      align-items: center;
+                        background: #ffebe0;
+                          padding: 1rem;
+                            border-radius: 8px;
+                            }
+
+                            header nav span {
+                              margin-left: 1rem;
+                                cursor: pointer;
+                                }
+
+                                .hero {
+                                  text-align: center;
+                                    margin: 2rem 0;
+                                    }
+
+                                    .menu-grid {
+                                      display: grid;
+                                        grid-template-columns: 1fr;
+                                          gap: 1rem;
+                                          }
+
+                                          .card {
+                                            background: #fff;
+                                              padding: 1rem;
+                                                border-radius: 8px;
+                                                  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+                                                    animation: fadeUp 0.5s ease both;
+                                                      transition: transform 0.2s ease;
+                                                        text-align: center;
+                                                        }
+
+                                                        .card:hover {
+                                                          transform: translateY(-6px) scale(1.02);
+                                                          }
+
+                                                          .card img {
+                                                            width: 100%;
+                                                              border-radius: 8px;
+                                                              }
+
+                                                              footer {
+                                                                text-align: center;
+                                                                  margin-top: 2rem;
+                                                                    background: #ffebe0;
+                                                                      padding: 1rem;
+                                                                        border-radius: 8px;
+                                                                        }
+
+                                                                        @keyframes fadeUp {
+                                                                          from { opacity: 0; transform: translateY(12px); }
+                                                                            to { opacity: 1; transform: translateY(0); }
+                                                                            }
+
+}
